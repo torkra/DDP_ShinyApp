@@ -1,0 +1,15 @@
+This is the help file. 
+
+This shiny app are using the galton dataset, for a more comprehensive description of the galton dataset please see http://cran.r-project.org/web/packages/HistData/HistData.pdf
+
+The galton dataset is a number of observations the average hights of parents and the hights of thier children.
+It is often used for expriments with different predictions models. In this specific app we just use a linear regression model to illustrate the relationships.
+You can see if the regression differs for different intervalls of the parents heights.
+
+In this app we plot the dataset and you have the posibility to:
+
+* select the parents hights in the interval by adjusting the sliders
+
+* select if to draw a regression line based on the full dataset
+  or based on the selected intervall by using the radiobuttons
+
